@@ -22,3 +22,4 @@ regions:
 libraries:
   - 'nikoe/global-styling'
   - 'nikoe/bootstrap-scripts'
+  - 'nikoe/additional-scripts'
