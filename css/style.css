@@ -7701,4 +7701,8 @@ footer {
     display: flex;
     justify-content: center;
   }
+  div#views-bootstrap-products-page-products > div.media div.media-body > .media-heading {
+    font-weight: bold;
+    text-align: center;
+  }
 }
