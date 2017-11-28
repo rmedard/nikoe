@@ -7693,3 +7693,8 @@ input[type="checkbox"] {
 footer {
   background-color: #333333;
 }
+@media (orientation: landscape) and (max-width: 768px) {
+  div#views-bootstrap-products-page-products > div.media > div {
+    width: 100%;
+  }
+}
