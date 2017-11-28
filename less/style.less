@@ -1,19 +1,22 @@
 // Bootstrap Framework.
 @import 'bootstrap';
-
 // Base-theme overrides.
 @import 'overrides';
-
 // Bootswatch overrides
 @import 'variables';
 @import 'bootswatch';
 
-footer{
+footer {
     background-color: @gray-dark;
 }
-
-@media (orientation:portrait) and (max-width: @screen-sm){
-    div#views-bootstrap-products-page-products > div.media > div {
-        width: 100%;
+@media (orientation: portrait) and (max-width: @screen-sm) {
+    div#views-bootstrap-products-page-products > div.media {
+        div {
+            width: 100%;
+        }
+        div.pull-left {
+            display: flex;
+            justify-content: center;
+        }
     }
 }

@@ -7694,7 +7694,11 @@ footer {
   background-color: #333333;
 }
 @media (orientation: portrait) and (max-width: 768px) {
-  div#views-bootstrap-products-page-products > div.media > div {
+  div#views-bootstrap-products-page-products > div.media div {
     width: 100%;
+  }
+  div#views-bootstrap-products-page-products > div.media div.pull-left {
+    display: flex;
+    justify-content: center;
   }
 }
