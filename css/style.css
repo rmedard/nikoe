@@ -7701,6 +7701,7 @@ footer {
   div#views-bootstrap-products-page-products > div.media div.pull-left {
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
   }
   div#views-bootstrap-products-page-products > div.media div.media-body > .media-heading {
     text-align: center;
